@@ -6,8 +6,7 @@ class Solution:
         left=[]
         right=[]
         resu=[]
-        if l==2:
-            return [nums[1],nums[0]]
+      
         left.append(nums[0])
         r=nums[0]
         for i in range(1,l):
